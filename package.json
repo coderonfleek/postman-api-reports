@@ -1,0 +1,16 @@
+{
+  "name": "postman-api-reports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report": "npx newman run https://www.getpostman.com/collections/778ce5ceb7c3ffbfd6bd -e ./My-Remote-API-Testing.postman_environment.json -r htmlextra"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.2.0",
+    "newman-reporter-htmlextra": "^1.19.0"
+  }
+}
